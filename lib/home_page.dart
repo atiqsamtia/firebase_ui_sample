@@ -20,10 +20,10 @@ class _HomePageState extends State<HomePage> {
             return const SignInScreen(
               providerConfigs: [
                 EmailProviderConfiguration(),
-              ],);
+              ],
+            );
           }
           return const TodoList();
-        }
-    );
+        });
   }
 }
